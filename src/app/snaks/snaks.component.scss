@@ -70,16 +70,20 @@ body {
 
 
 button {
-
+  
   float: right;
-  background-color: tomato;
-  color: black;
+  background-color:#e4002b;
+  text-align: center;
+  color: #fff;;
   width: 161px;
-  height: 42px;
-  margin: 2px 40px 0px 10px;
-  border-radius: 10px;
-  font-style: var();
+  height: 30px;
+  margin: 2px 20px 0px 20px;
+  border-radius: 10rem;
+  font-style: normal;
   font-size: medium;
+  display: flex;
+  justify-content: center;
+  font-family: "National 2 Regular";
 
 }
 
@@ -97,10 +101,10 @@ button {
 .box {
   border: 1px solid rgb(14, 14, 14);
   margin: 20px 20px 20px 20px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 8px;
   padding: 5px;
   display: inline-block;
-  
+  border: 2px solid #f3f0f0;
 
 }
 
