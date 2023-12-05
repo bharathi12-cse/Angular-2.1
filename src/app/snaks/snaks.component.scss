@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.image {
+  float: left;
+  margin-top: -70px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: copperplate;
+}
+
+.sidenav {
+  float: left;
+  width: 17%;
+  height: 500px;
+  background: #f2f2f2;
+
+
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+  display: block;
+}
+
+.sidenav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+  border: 2px solid rgb(219, 216, 216);
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+button {
+
+  float: right;
+  background-color: tomato;
+  color: black;
+  width: 161px;
+  height: 42px;
+  margin: 2px 40px 0px 10px;
+  border-radius: 10px;
+  font-style: var();
+  font-size: medium;
+
+}
+
+.sidenav li {
+  width: 100%;
+  display: block;
+
+
+}
+
+.size {
+  padding: 10px;
+}
+
+.box {
+  border: 1px solid rgb(14, 14, 14);
+  margin: 20px 20px 20px 20px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  display: inline-block;
+  
+
+}
+
+.box img {
+  width: 190px;
+  height: 200px;
+  display: inline-flex;
+}
+
+article {
+  float: right;
+  width: 83%;
+}
+
+li a:hover {
+  background-color: darkgray;
+  color: white;
+
+}
+
+a:hover {
+  background-color: azure;
+  color: black;
+}

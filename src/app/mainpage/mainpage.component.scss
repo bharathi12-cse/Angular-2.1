@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+  header {
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+  }
+
+  .image {
+    float: left;
+    margin-top: -52px;
+    
+  }
+    
+  Nav {
+    
+    width: 100%;
+    height: 60px;
+    background:rgb(77, 18, 18);
+    padding: 20px;
+    margin: auto;
+    }
+
+    .navimg{
+        float: right;
+        margin: -9px 0px 0px 10px;
+    }
+ 
+    button{
+        float: right;
+        background-color: tomato;
+        color: black;
+        width: 200px;
+        height: 50px;
+        margin: -15px 0px 0px 10px;
+        border-radius: 10px;
+        font-style:var();
+        font-size: medium;
+        
+    }
+    
+  article {
+    float: right;
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    margin: auto;
+  }
+
+.size {
+    width: 64em;
+    float: right;
+    height: 34rem;
+    padding: 17px 4px 0px 0px;
+ }
+  
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;  
+  }
+
+  form{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(87, 27, 16);
+    color: white;
+    
+    }
+
+    .cbutton {
+      float: right;
+        background-color: white;
+        color: black;
+        width: 100px;
+        height: 30px;
+        margin: -15px 0px 0px 10px;
+        border-radius: 5px;
+        font-size: medium;
+
+    }
+
+    a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+
+    } 
+
+    li a:hover{
+      background-color:darkgray;
+      color: white;
+
+    }
